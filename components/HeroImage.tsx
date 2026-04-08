@@ -4,7 +4,6 @@ type Props = {
 
 export default function HeroImage({ currentMonth }: Props) {
 
-  // 🌦️ Month → Image Mapping
   const monthImages: { [key: number]: string } = {
     0: "/snow.avif",        
     1: "/coldfeb.avif",     
